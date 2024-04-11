@@ -1,0 +1,24 @@
+{
+  "params": {
+    "Base": {
+      "k": 15,
+      "num_advice_per_phase": [
+        4
+      ],
+      "num_fixed": 1,
+      "num_lookup_advice_per_phase": [
+        1
+      ],
+      "lookup_bits": 11,
+      "num_instance_columns": 1
+    }
+  },
+  "break_points": {
+    "base": [
+      []
+    ],
+    "rlc": []
+  },
+  "max_user_outputs": 128,
+  "max_user_subqueries": 128
+}
