@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "version": 0,
+    "numInstance": [
+      2304
+    ],
+    "numChallenge": [
+      0
+    ],
+    "isAggregation": false,
+    "numAdvicePerPhase": [
+      4
+    ],
+    "numLookupAdvicePerPhase": [
+      1
+    ],
+    "numRlcColumns": 0,
+    "numFixed": 1,
+    "maxOutputs": 128
+  },
+  "circuit_id": "8480377bf9a572faabae3dba88e0b0df8bae7c659c6aab5ee9efa40028b4a94d",
+  "data_query_size": {
+    "4": 3,
+    "7": 1
+  },
+  "agg_circuit_id": null,
+  "max_user_outputs": 128,
+  "max_user_subqueries": 128,
+  "preprocessed_len": 13,
+  "query_schema": "0xef33c81d8aa6ae824859e79718a05482c4f8c3f1a61248facbc7561a238ee0f6"
+}
