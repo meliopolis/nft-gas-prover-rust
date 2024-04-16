@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-axiom-sdk = { git = "https://github.com/axiom-crypto/axiom-sdk-rs", branch = "v0.2.0-alpha" }
+axiom-sdk = { git = "https://github.com/axiom-crypto/axiom-sdk-rs", branch = "feat/ecdsa" }
 anyhow = "1.0.75"
 serde = { version = "1.0", features = ["derive"] }
-axiom-circuit = { git = "https://github.com/axiom-crypto/axiom-sdk-rs", branch = "v0.2.0-alpha" }
+axiom-circuit = { git = "https://github.com/axiom-crypto/axiom-sdk-rs", branch = "feat/ecdsa" }
 secp256k1 = { version = "0.29.0", features = ["recovery", "global-context"]}

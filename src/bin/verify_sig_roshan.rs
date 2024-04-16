@@ -87,7 +87,7 @@ impl AxiomComputeFn for VerifySigInput {
 
         // 4. generate hash from transaction data
         // for right now, hard coding a hash
-        let hash_string = "06f82de52df55961571f5f442c369bb6195c9e0a6e051cc1dc7296343b05832c";
+        let hash_string = "0d7085b7555b1180dcbe8f11d3c99ff21a42a3b5a828802d5810b9577eae3661";
         let hash_vec = hex::decode(hash_string).unwrap();
         let hash_bytes: [u8; 32] = hash_vec.clone().try_into().unwrap();
 
